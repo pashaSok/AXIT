@@ -1,0 +1,16 @@
+{
+    "rules": {
+        "parser":"babel-eslint",
+        "no-unused-vars":"warn",
+        "no-var":"warn",
+        "semi": [2, "always"],
+        "quotes": [2, "single", { "avoidEscape": true }]
+    },
+    "env":{
+        "es6": true,
+        "browser": true 
+    },
+    "extends": [
+        "eslint: recommended"
+    ]
+}

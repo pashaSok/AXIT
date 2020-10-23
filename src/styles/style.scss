@@ -1,0 +1,18 @@
+@import "roboto.css";
+@import "reset.css";
+
+
+.container{
+    max-width: 1000px;
+    margin:0 auto;
+    font-family: 'Roboto', sans-serif;
+
+    h1{
+        font-size: 3rem;
+    }
+    .test{
+        width: 30px;
+        height: 30px;
+        background: brown;
+    }
+}
