@@ -54,7 +54,9 @@ module.exports={
         new CleanWebpackPlugin(),
         new CopyWebpackPlugin({
             patterns: [
-                { from: path.resolve(__dirname, 'src/assets/images/favicon.jpg'), to: path.resolve(__dirname, 'dist/images') }
+                { 
+                    from: path.resolve(__dirname, 'src/assets/images/'), to: path.resolve(__dirname, 'dist/assets/images')
+                }
               ]
         }),
         new MiniCssExtractPlugin({

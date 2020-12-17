@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('../assets/fonts/untitled-font-1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+.icon{
+    width: max-content;
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+}
+.icon-botton-arrow::before{
+    content: "\61";
+}
+.icon-top-arrow::before{
+    content: "\62";
+}
+.icon-instagram:before {
+    content: "\63";
+}
+.icon-google-plus:before {
+    content: "\64";
+}
+.icon-facebook:before {
+    content: "\65";
+}
+.icon-twitter:before {
+    content: "\66";
+}
+.icon-pinterest:before {
+    content: "\67";
+}
+.icon-stumbleupon:before {
+    content: "\68";
+}
+.icon-rss:before {
+    content: "\69";
+}
+.icon-keyboard:before {
+    content: "\6a";
+}
+.icon-lamp:before {
+    content: "\6b";
+}
+.icon-lightning:before {
+    content: "\6c";
+}

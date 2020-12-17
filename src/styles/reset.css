@@ -5,7 +5,9 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, em, img, strong, sub, sup, b, 
     outline: 0;                               
     vertical-align: baseline;          
     background: transparent;      
-    font-size: 20px;
+}
+body{
+    font-size: 10px;
 }
 nav ul {
     list-style:none;
