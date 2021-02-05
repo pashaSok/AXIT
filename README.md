@@ -1,2 +1,2 @@
 # AXIT
-## [axit](https://pashaSok.github.io/AXIT/src/index.html)
+## [axit](https://pashaSok.github.io/AXIT/dist/index.html)
