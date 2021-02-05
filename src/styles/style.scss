@@ -10,7 +10,7 @@ $hoverOrange:#ff8b38;
 
 .signup{
     background: url(../assets/images/header-background.jpg) no-repeat center bottom fixed;
-    background-size: 100%;
+    background-size: cover;
     height: 711px;
     display: flex;
     flex-direction: column;
@@ -872,7 +872,7 @@ footer{
 }
 @media screen and(max-width:1400px){
     .custom{
-        background-size: auto;
+        background-size: cover;
     }
 }
 @media screen and (max-width:1200px){
