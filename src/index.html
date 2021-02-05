@@ -17,12 +17,29 @@
                     </div>
                     <div class="header__menu">
                         <ul>
-                            <li><a href="#">Features</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Pricing</a></li>
-                            <li><a href="#">Reviews</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#process">About</a></li>
+                            <li><a href="#price">Pricing</a></li>
+                            <li><a href="#testimonials">Reviews</a></li>
+                            <li><a href="#contact">Contact</a></li>
                         </ul>
+                    </div>
+                    <div class=" header__menu-mobile">
+                        <input type="checkbox" id="check-menu">
+                        <label for="check-menu"></label>
+                        <div class="burger-line burger-line__first"></div>
+                        <div class="burger-line burger-line__second"></div>
+                        <div class="burger-line burger-line__third"></div>
+                        <div class="burger-line burger-line__fours"></div>
+                        <nav class="header__main-menu-mobile">
+                            <ul>
+                                <li><a href="#features">Features</a></li>
+                                <li><a href="#process">About</a></li>
+                                <li><a href="#price">Pricing</a></li>
+                                <li><a href="#testimonials">Reviews</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -75,7 +92,7 @@ Aenean euismod bibendum laoreet.
             <a href="#" title="rss"><i class="fa fa-rss fa-5x"></i></a>
         </div>
     </section>
-    <section class="features">
+    <section class="features" id="features">
         <div class="container">
             <div class="tab-buttons">
                 <div class="tab__button tab-active" id="#tab1">tab 1</div>
@@ -171,7 +188,7 @@ Aenean euismod bibendum laoreet.
             </div>
         </div>
     </section>
-    <section class="process">
+    <section class="process" id="process">
         <div class="container">
             <div class="section-header">
                 <span class="section__title">why this is awesone</span>
@@ -209,7 +226,7 @@ Aenean euismod bibendum laoreet.
             </div>
         </div>
     </section>
-    <section class="price">
+    <section class="price" id="price">
         <div class="container">
             <div class="section-header">
                 <span class="section__title">pricing options</span>
@@ -219,13 +236,13 @@ Aenean euismod bibendum laoreet.
             <div class="price-content-wrapper">
                 <div class="price-content__item">
                     <div class="price__item-header">
-                        <div>Basic</div>
+                        <div id="#priceTab1" class="price__item-header-title">Basic</div>
+                    </div>
+                    <div id="priceTab1" class="price__item-list price__item-content">
                         <div>
                             <p>$<i>0</i></p>
                             <p>Free for Life</p>
                         </div>
-                    </div>
-                    <div class="price__item-list">
                         <div>1 gb of space</div>
                         <div>10 gb of bandwidth</div>
                         <div>3 websites</div>
@@ -236,13 +253,13 @@ Aenean euismod bibendum laoreet.
                 </div>
                 <div class="price-content__item">
                     <div class="price__item-header">
-                        <div>Professional</div>
+                        <div id="#priceTab2" class="price__item-header-title">Professional</div>
+                    </div>
+                    <div id="priceTab2" class=" price__item-content price__item-list">
                         <div class="professional">
                             <p>$<i>19</i></p>
                             <p>Monthly Payment</p>
                         </div>
-                    </div>
-                    <div class="price__item-list">
                         <div class="price__item-list__professional">our most popular</div>
                         <div>5 gb of space</div>
                         <div>50 gb of bandwidth</div>
@@ -254,13 +271,13 @@ Aenean euismod bibendum laoreet.
                 </div>
                 <div class="price-content__item">
                     <div class="price__item-header">
-                        <div>Enterprise</div>
+                        <div id="#priceTab3" class="price__item-header-title">Enterprise</div>
+                    </div>
+                    <div id="priceTab3" class="price__item-list price__item-content">
                         <div>
                             <p>$<i>70</i></p>
                             <p>Monthly Payment</p>
                         </div>
-                    </div>
-                    <div class="price__item-list">
                         <div>unlimited space</div>
                         <div>unlimited bandwidth</div>
                         <div>100 websites</div>
@@ -272,7 +289,7 @@ Aenean euismod bibendum laoreet.
             
         </div>
     </section>
-    <section class="testimonials">
+    <section class="testimonials" id="testimonials">
         <div class="container">
             <div class="section-header">
                 <span class="section__title">what our customers saying</span>
@@ -347,7 +364,7 @@ Aenean euismod bibendum laoreet.
             <a class="download-button" href="#">Download</a>
         </div>
     </section>
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="container">
             <div class="section-header">
                 <span class="section__title">contact us</span>
@@ -355,7 +372,7 @@ Aenean euismod bibendum laoreet.
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
             <div class="contact__form-wrapper">
-                <form>
+                <form >
                     <input type="text" placeholder="Name">
                     <input type="email" placeholder="Email">
                     <input type="text" placeholder="Subject">
@@ -379,7 +396,7 @@ Aenean euismod bibendum laoreet.
                 <a href="#" class="icon-stumbleupon"></a>
                 <a href="#" class="icon-rss"></a>
             </div>
-            <a href="#" class="footer-dev">
+            <a href="https://github.com/pashaSok" class="footer-dev" target="blank">
                 <i href="#" class="fa fa-github fa-2x"></i>
                 Pavel Karpeko
             </a>

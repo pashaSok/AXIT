@@ -5,6 +5,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, em, img, strong, sub, sup, b, 
     outline: 0;                               
     vertical-align: baseline;          
     background: transparent;      
+    scroll-behavior: smooth;
 }
 body{
     font-size: 10px;
@@ -45,7 +46,8 @@ input[type="text"], input[type="password"], textarea {
     padding: 0; 				
 }
 input[type="checkbox"] { 		
-    vertical-align: bottom;
+    margin: 0;
+    padding: 0;
 }
 input[type="radio"] {
     vertical-align: text-bottom;

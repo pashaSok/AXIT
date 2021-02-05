@@ -16,6 +16,21 @@ tabItem.forEach((item)=>
     })
 );
 
+const priceTabButton = document.querySelectorAll('.price__item-header-title');
+const priceTabContent = document.querySelectorAll('.price__item-content');
+if(document.documentElement.clientWidth < 987){
+    priceTabButton.forEach((item)=>
+        item.addEventListener('click',(e)=>{
+            const id =e.target.getAttribute('id').replace('#','');
+            e.preventDefault();
+            priceTabContent.forEach((child)=>{
+                child.classList.remove('price__item-list-active');
+            });
+            item.classList.add('price__item-list-active');
+            document.getElementById(id).classList.add('price__item-list-active');
+        })
+    );
+}
 
 
 
